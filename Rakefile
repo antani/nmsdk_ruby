@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "nmsdk_ruby"
   gem.homepage = "http://github.com/antani/nmsdk_ruby"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby gem for NMSDK Wrapper}
+  gem.description = %Q{Use only for Developer Conference}
   gem.email = "ved.antani@gmail.com"
   gem.authors = ["Ved"]
+  gem.files=Dir.glob('lib/**/*.rb')
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
